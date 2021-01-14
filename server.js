@@ -2,7 +2,7 @@ const net = require('net');
 const fs = require('fs');
 
 const PORT = 3000;
-const files = ['example1.txt', 'example2.txt'];
+const files = ['example1.txt', 'example2.txt', 'example3.txt'];
 
 const server = net.createServer(client => {
   console.log('client connected');
